@@ -57,7 +57,7 @@ table {
 }
 .main, .work, .partners, .ideas, .search {
 	padding: 0 250px;
-}
+	}
 header {
 	background-image: url(images/Main.png);
 	width: 1440px;
@@ -197,6 +197,7 @@ header h4 {
 }
 .partners {
 	margin-bottom: 100px;
+	width: 1440px;
 }
 .first_partner, .second_partner, .third_partner, .fourth_partner {
 	height: 240px;
@@ -325,6 +326,7 @@ hr {
 footer{
 	padding: 35px 250px 0px 250px;
 	position: relative;
+	width: 1440px;
 }
 footer h4{
 	font-family: "Montserrat-Bold";
@@ -354,7 +356,7 @@ li a {
 .img-right {
 	position: absolute;
 	bottom: 108px;
-	left: 970px;
+	left: 1060px;
    margin: 0 0 10px 20px;
    padding: 0;
    float: right;
@@ -367,6 +369,7 @@ li a {
 header {
 	background-size: cover;
 	background-image: url(images/Main.png) no-repeat;
+	background-position: center;
 	width: auto;
 	height: auto;
 	margin-bottom: 20px;
@@ -422,6 +425,7 @@ header h4 {
 }
 .partners {
 	margin-bottom: 20px;
+	width: auto;
 }
 .first_partner {
 	background: url(images/tv.png) 64% 42% no-repeat, url(images/red_ring.png) 65% 41% no-repeat, url(images/Bradley.png) 50% 0% no-repeat;
